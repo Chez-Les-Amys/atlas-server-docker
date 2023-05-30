@@ -1,6 +1,8 @@
 # Atlas Dedicated Server for Linux/Docker
 
 **IMPORTANT:** This is an initial release intended for testing. I cannot provide support or promise that this solution will work for you.
+Initial work : https://github.com/linuxatlas/atlas-server-docker/tree/master
+Editing by Psyche699
 
 This Dockerfile has had *very limited* testing. It would be great to get positive feedback, so if this works for you feel free to open an issue to let everyone know. Sharing `ServerGrid.json`'s is also useful, but be sure to sanitize them first.
 
