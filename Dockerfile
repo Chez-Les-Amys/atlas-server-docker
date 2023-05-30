@@ -32,6 +32,9 @@ RUN apt-get update && \
     dpkg-reconfigure --frontend=noninteractive locales && \
     update-locale LANG=en_US.UTF-8 && \
     # basic deps
+    ## Add by Psyche699
+    apt-get install -y --no-install-recommends apt-utils
+    ## End add by Psyche699
     apt-get install -y --no-install-recommends gpg-agent software-properties-common apt-transport-https wget && \
     apt-get install -y --no-install-recommends xvfb x11vnc xterm && \
     # redis
